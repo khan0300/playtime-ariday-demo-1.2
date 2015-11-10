@@ -34,8 +34,6 @@ import java.util.TreeSet;
  * Created by Ammar on 2015-08-12.
  */
 public class HomePage extends Fragment{
-
-
     
     ListView timelineListView;
 
