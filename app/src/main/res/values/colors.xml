@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="invisible">#00000000</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="content_text_light">#eee</color>
+    <color name="content_text_dark">#333</color>
+
+    <color name="content_deep_navy">#ff364e5b</color>
+    <color name="content_orange">#ffe58730</color>
+    <color name="content_yellow">#ffeece48</color>
+    <color name="content_red">#ffb42926</color>
+    <color name="content_deep_red">#ff7f1817</color>
+    <color name="content_light_green">#ff64c881</color>
+    <color name="content_grey">#ff969696</color>
+    <color name="theme_dark_beige">#fff4eab3</color>
+    <color name="theme_light_beige">#fffaf9e8</color>
+    <color name="theme_light_yellow">#fffefbc8</color>
+    <color name="theme_lighter_beige">#fffffff5</color>
+
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">PlayTimeARIDayDemo</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="main_options_menu_item_settings">Settings</string>
+    <string name="main_options_menu_item_send_feedback">Send Feedback</string>
+    <string name="main_options_menu_demo_restart_application">Restart Application</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_challenges">Challenges</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_piggybank">Piggybank</string>
+
+    <string name="home_filter_all">ALL</string>
+    <string name="home_filter_time_waster">TIMEWASTERS</string>
+    <string name="home_filter_productive">PRODUCTIVE</string>
+
+    <string name="timeline_row_secondary">Secondary Text (eg. description - bla bla bla bla bla bla bla bla)</string>
+    <string name="timeline_row_primary">Primary Text</string>
+    <string name="timeline_row_amount">25</string>
+    <string name="timeline_row_amount_unit">min</string>
+    <string name="timeline_row_special_label">time remaining</string>
+    <string name="timeline_row_special_value">25 m 34 s</string>
+    <string name="timeline_row_elapsed_time">42 s</string>
+    <string name="timeline_row_secondary_label">Wayne</string>
+
+    <string name="tpa_description_petflix">Endless entertainment of your favourite animals. Stream videos of cute kittens, silly house pets, drunk monkeys, screaming goats, and more!</string>
+    <string name="tpa_description_mytube">See what the world is watching — from the hottest music videos to what\'s trending in gaming, entertainment, news... you name it!</string>
+    <string name="tpa_description_conflictofclubs">World\'s most anticipated strategy game on Android of 2015, Conflict of Clubs calls to all strategists to build your club to conquer others in a global real time battle royale.</string>
+    <string name="tpa_description_talkatme">Video calling and conferencing has never been so easy, fluid, and affordable. Talk@Me connects you to friends and family with cutting edge HD audio and video streaming.</string>
+    <string name="tpa_description_picme">Pic Me! is a simple way to capture and share the world\'s moments. Transform your everyday photos and videos into digital memories you can upload to show your friends, family and followers.</string>
+    <string name="tpa_description_picturepost">With a sleek and minimalistic design, Picture Post is a photo blog app that lets you organize and share photo collections in a growing community of photo lovers.</string>
+    <string name="tpa_description_mugscroll"></string>
+    <string name="tpa_description_meowmeowbeenz">Rate your friends and family on a five meow scale. 5s have lives, 4s have chores, 3s have fleas, 2s have ooze, and 1s have tons.</string>
+    <string name="tpa_description_bitterbutterflies">Help these Bitter Butterflies to exact revenge on the laughing mad cows that ruined their livelihood.</string>
+    <string name="tpa_description_hearable">Hearable gives you the power of streaming or downloading audio entertainment, information and educational programming right onto your mobile device.</string>
+    <string name="tpa_description_maths">Endorsed by the MIT Department of Mathematics, MATHs gives you easy tools, fun tutorials, and robust resources to help you learn more in any domain of mathematics study.</string>
+    <string name="tpa_description_crafty">Feeling crafty? Get Crafty! Enter a world of handy arts and crafts with unlimited art activities shared by peers from all over the world.</string>
+    <string name="tpa_description_drawr">So simple, yet so powerful. Drawr allows you to draw and design graphics with a multitude of tools from a simple user-interface that maximizes your device\'s screen real estate.</string>
+    <string name="tpa_description_lurnt">Feel one IQ point smarter everyday - get fun facts, trivia, and articles related to all kinds of subjects or event.</string>
+    <string name="tpa_description_codewiz">Become a powerful computer programming wizard with CodeWiz - a tool developed by genius group CodeWizard that will bestow upon you the magic secrets of programming.</string>
+    <string name="tpa_description_jedtalks">JED brings communities together from all around the world to engage people in the most amusing, intriguing and thought provoking presentations.</string>
+    <string name="tpa_description_7minworkout">Ten minutes too long - 5 minutes too short. Start your 7 minute workout with this app and make the best of exercise between your work breaks.</string>
+    <string name="tpa_description_restmusiclessons">Rest and take it easy with these quality music lessons crafted from music entusiasts, composers and instructors world wide.</string>
+    <string name="main_options_menu_item_play_tutorial">Play Tutorial</string>
+    <string name="main_options_menu_item_help">Help</string>
+
+</resources>

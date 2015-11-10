@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">@color/theme_dark_beige</item>
+        <item name="android:colorPrimary">@color/theme_dark_beige</item>
+        <!--<item name="android:colorPrimaryDark">@color/primaryColorDark</item>-->
+    </style>
+
+    <!--<style name="MyCustomToolBarTheme" parent="Theme.AppCompat.Light">-->
+        <!--<item name="android:textColorPrimary">@color/theme_dark_beige</item>-->
+        <!--<item name="android:textColorSecondary">@color/theme_dark_beige</item>-->
+    <!--</style>-->
+
+    <!--<style name="ActionDropDownList" parent="Widget.AppCompat.Spinner.DropDown.ActionBar">-->
+    <style name="ActionDropDownList" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/content_deep_navy</item>
+        <item name="android:background">@color/theme_light_beige</item>
+    </style>
+    
+</resources>

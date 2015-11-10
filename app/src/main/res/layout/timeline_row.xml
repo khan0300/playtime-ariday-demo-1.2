@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/timeline_row_container_layout"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/customrowchallengebgrect"
+    android:elevation="2dp"
+    android:nestedScrollingEnabled="false"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/timeline_row_thumbnail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/timeline_row_primary"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/timeline_row_amount"
+        android:layout_toStartOf="@+id/timeline_row_time_elapsed"
+        android:gravity="left|center"
+        android:paddingLeft="8dp"
+        android:text="@string/timeline_row_primary"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/timeline_row_secondary_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/timeline_row_primary"
+        android:layout_below="@+id/timeline_row_primary"
+        android:gravity="top|left"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp"
+        android:singleLine="true"
+        android:text="@string/timeline_row_secondary_label" />
+
+    <TextView
+        android:id="@+id/timeline_row_secondary_value"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@+id/timeline_row_primary"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/timeline_row_primary"
+        android:layout_below="@+id/timeline_row_secondary_label"
+        android:layout_toStartOf="@+id/customRowTimeSinceOccurence"
+        android:ellipsize="end"
+        android:gravity="top|left"
+        android:maxLines="3"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/timeline_row_secondary"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/timeline_row_challenge_reward_circle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/timeline_row_amount"
+        android:layout_alignTop="@+id/timeline_row_amount"
+        android:background="@drawable/customrowchallengerewardcircle"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/timeline_row_amount"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignTop="@+id/timeline_row_thumbnail"
+        android:layout_marginLeft="6dp"
+        android:layout_toEndOf="@+id/timeline_row_thumbnail"
+        android:layout_toRightOf="@+id/timeline_row_thumbnail"
+        android:gravity="center"
+        android:paddingRight="2dp"
+        android:text="@string/timeline_row_amount"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/timeline_row_amount_unit"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/timeline_row_thumbnail"
+        android:layout_alignLeft="@+id/timeline_row_amount"
+        android:layout_alignParentEnd="false"
+        android:layout_alignStart="@+id/timeline_row_amount"
+        android:gravity="center"
+        android:text="@string/timeline_row_amount_unit"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/timeline_row_time_elapsed"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp"
+        android:gravity="center|right"
+        android:text="@string/timeline_row_elapsed_time"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/timeline_row_special_label"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/timeline_row_secondary_value"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/timeline_row_primary"
+        android:layout_toLeftOf="@+id/timeline_row_secondary_value"
+        android:gravity="top|center"
+        android:text="@string/timeline_row_special_label"
+        android:textSize="10sp"
+        android:paddingTop="12dp" />
+
+    <TextView
+        android:id="@+id/timeline_row_special_value"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentEnd="false"
+        android:layout_toLeftOf="@+id/timeline_row_primary"
+        android:layout_toStartOf="@id/timeline_row_primary"
+        android:gravity="top|center"
+        android:paddingBottom="8dp"
+        android:text="@string/timeline_row_special_value"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/timeline_row_primary"
+        android:paddingTop="26dp" />
+
+</RelativeLayout>

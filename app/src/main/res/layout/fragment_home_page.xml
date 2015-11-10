@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/homePageLayout">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:elevation="4dp"
+        android:background="@drawable/lightpanelrectangle"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="96dp"
+            android:elevation="5dp"
+            android:background="#00ffffff"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="@string/home_filter_all"
+                android:id="@+id/homeFilterAllButton"
+                android:layout_weight="1"
+                android:background="@drawable/home_filterbuttonon"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:visibility="visible"
+                android:textSize="14sp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="@string/home_filter_time_waster"
+                android:id="@+id/homeFilterTimeWasterButton"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/content_deep_navy"
+                android:background="@drawable/home_filterbuttonoff"
+                android:textSize="14sp"
+                android:singleLine="true"
+                android:ellipsize="none" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="@string/home_filter_productive"
+                android:id="@+id/homeFilterProductiveButton"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/content_deep_navy"
+                android:background="@drawable/home_filterbuttonoff"
+                android:singleLine="true"
+                android:ellipsize="none"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <ListView
+            android:id="@+id/timelineListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/white"
+            android:dividerHeight="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clipToPadding="false"
+            android:paddingTop="10dp">
+        </ListView>
+    </FrameLayout>
+
+
+    <!--<android.support.v7.widget.RecyclerView>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/newRecyclerView"
+    </android.support.v7.widget.RecyclerView>-->
+
+</RelativeLayout>
